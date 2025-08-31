@@ -1,0 +1,147 @@
+/* ? Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+/* ? Reset CSS */
+
+body {
+    background-color: #000;
+}
+
+.container {
+    width: 680px;
+    margin: 0 auto;
+    box-shadow: 1px 1px 12px 4px #a98d57;
+}
+
+/* ? Common css codes */
+.head,
+header ul,
+aside,
+footer {
+    background-repeat: no-repeat;
+}
+
+/* ? Common css codes */
+
+/*? Header  */
+.head {
+    background-image: url(./head-bg.png);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px;
+}
+
+.head h1 {
+    color: #debb73;
+}
+
+.head h6 {
+    color: #eeddb9;
+    padding: 7px 0 0 35px;
+}
+
+nav ul {
+    background-image: url(./head-2.png);
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    height: 58px;
+}
+
+nav a {
+    color: #ead5a8;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+nav a:hover {
+    color: #DEBB73;
+}
+
+nav li {
+    float: left;
+    padding: 16px 28px;
+}
+
+nav li:hover {
+    background: linear-gradient(180deg, #4D0017 0%, #8D3236 100%);
+}
+
+/*? Header  */
+
+/* ? Main */
+main {
+    background-color: #debb73;
+    padding: 12px 4px 28px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ? Aside */
+aside {
+    float: right;
+    background-image: url(./link-bgpng.png);
+    margin-top: 44px;
+    padding: 13px 24px 0 0;
+}
+
+aside ul {
+    padding-top: 30px;
+}
+
+aside a {
+    line-height: 20px;
+    font-size: 12px;
+    color: #000;
+    font-weight: 600;
+}
+
+aside a:hover {
+    color: #667765;
+}
+
+/* ? Aside */
+
+
+/* ? Article */
+article h2 {
+    color: #6a0020;
+    padding-bottom: 10px;
+}
+
+article p {
+    line-height: 26px;
+    font-size: 13px;
+}
+
+article p:nth-child(3) {
+    margin-block: 30px;
+}
+
+/* ? Article */
+/* ? Main */
+
+
+
+/* ? Footer */
+footer {
+    background-image: url(./footer-bg.png);
+    background-position: center;
+    padding-top: 28px;
+    text-align: center;
+}
+
+footer a {
+    color: #ac8228;
+    font-size: 12px;
+}
+
+/* ? Footer */
